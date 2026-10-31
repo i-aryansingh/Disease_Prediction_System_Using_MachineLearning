@@ -1,0 +1,548 @@
+[
+ {
+  "name": "Malaria",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "fv",
+   "ch",
+   "sw",
+   "hd",
+   "ba",
+   "na",
+   "vo",
+   "ft"
+  ],
+  "description": "Parasitic infection spread by mosquitoes, with fever in cycles of shivering and sweating."
+ },
+ {
+  "name": "Dengue fever",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "fv",
+   "ep",
+   "jp",
+   "rs",
+   "ba",
+   "hd",
+   "na",
+   "ft"
+  ],
+  "description": "Mosquito-borne viral fever with severe body and joint pain."
+ },
+ {
+  "name": "Dengue haemorrhagic fever",
+  "category": "Infectious",
+  "urgency": "high",
+  "symptoms": [
+   "bg",
+   "fv",
+   "ap",
+   "vo",
+   "rs",
+   "wk",
+   "ba"
+  ],
+  "description": "Severe dengue with bleeding and low platelets. Needs hospital care."
+ },
+ {
+  "name": "Chikungunya",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "fv",
+   "jp",
+   "rs",
+   "hd",
+   "ba",
+   "ft"
+  ],
+  "description": "Viral fever with intense joint pain that can last weeks."
+ },
+ {
+  "name": "Typhoid",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "fv",
+   "ap",
+   "al",
+   "hd",
+   "cn",
+   "di",
+   "wk",
+   "ft"
+  ],
+  "description": "Bacterial infection from unsafe food or water, with prolonged fever."
+ },
+ {
+  "name": "Cholera",
+  "category": "Infectious",
+  "urgency": "high",
+  "symptoms": [
+   "di",
+   "vo",
+   "wk",
+   "ap",
+   "th"
+  ],
+  "description": "Severe watery diarrhoea that causes dangerous dehydration."
+ },
+ {
+  "name": "Hepatitis A",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "ye",
+   "du",
+   "na",
+   "al",
+   "fv",
+   "ft",
+   "ap"
+  ],
+  "description": "Liver infection from contaminated food or water."
+ },
+ {
+  "name": "Hepatitis B",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "ye",
+   "du",
+   "ft",
+   "ap",
+   "na",
+   "jp"
+  ],
+  "description": "Liver infection spread through blood and body fluids."
+ },
+ {
+  "name": "Hepatitis C",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "ft",
+   "ye",
+   "ap",
+   "na",
+   "jp",
+   "al"
+  ],
+  "description": "Blood-borne liver infection that is often silent for years."
+ },
+ {
+  "name": "Hepatitis E",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "ye",
+   "du",
+   "na",
+   "vo",
+   "fv",
+   "ap"
+  ],
+  "description": "Water-borne liver infection, risky during pregnancy."
+ },
+ {
+  "name": "Tuberculosis",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "co",
+   "bc",
+   "wl",
+   "ns",
+   "fv",
+   "ft",
+   "cp",
+   "al"
+  ],
+  "description": "Lung infection with a cough lasting more than two weeks. Free testing is available at government centres."
+ },
+ {
+  "name": "COVID-19",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "ls2",
+   "fv",
+   "co",
+   "st",
+   "ft",
+   "hd",
+   "ba",
+   "sb"
+  ],
+  "description": "Viral respiratory illness. Loss of smell or taste is a common clue."
+ },
+ {
+  "name": "Influenza",
+  "category": "Infectious",
+  "urgency": "low",
+  "symptoms": [
+   "fv",
+   "co",
+   "st",
+   "rn",
+   "ba",
+   "ft",
+   "hd",
+   "ch"
+  ],
+  "description": "Seasonal flu with sudden fever, aches and cough."
+ },
+ {
+  "name": "Chickenpox",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "rs",
+   "it",
+   "fv",
+   "ft",
+   "hd",
+   "al"
+  ],
+  "description": "Itchy blister-like rash with fever. Spreads easily."
+ },
+ {
+  "name": "Pneumonia",
+  "category": "Infectious",
+  "urgency": "high",
+  "symptoms": [
+   "co",
+   "fv",
+   "sb",
+   "cp",
+   "ch",
+   "ft"
+  ],
+  "description": "Lung infection that can worsen quickly, especially in children and elders."
+ },
+ {
+  "name": "Leptospirosis",
+  "category": "Infectious",
+  "urgency": "medium",
+  "symptoms": [
+   "fv",
+   "ep",
+   "hd",
+   "ba",
+   "ye",
+   "vo",
+   "ch"
+  ],
+  "description": "Spread through floodwater or animal urine. Common after monsoon."
+ },
+ {
+  "name": "Gastroenteritis",
+  "category": "Digestive",
+  "urgency": "low",
+  "symptoms": [
+   "di",
+   "vo",
+   "na",
+   "ap",
+   "fv"
+  ],
+  "description": "Stomach infection. Drink ORS and fluids to stay hydrated."
+ },
+ {
+  "name": "Peptic ulcer",
+  "category": "Digestive",
+  "urgency": "medium",
+  "symptoms": [
+   "ap",
+   "hb",
+   "na",
+   "bl",
+   "al"
+  ],
+  "description": "Sore in the stomach lining, with burning pain between meals."
+ },
+ {
+  "name": "Irritable bowel syndrome",
+  "category": "Digestive",
+  "urgency": "low",
+  "symptoms": [
+   "ap",
+   "bl",
+   "di",
+   "cn"
+  ],
+  "description": "Long-term gut condition with cramps and changing stools."
+ },
+ {
+  "name": "Jaundice",
+  "category": "Digestive",
+  "urgency": "medium",
+  "symptoms": [
+   "ye",
+   "du",
+   "ft",
+   "al",
+   "ap",
+   "pa"
+  ],
+  "description": "Yellowing of eyes and skin due to liver or blood problems."
+ },
+ {
+  "name": "Appendicitis",
+  "category": "Digestive",
+  "urgency": "high",
+  "symptoms": [
+   "rq",
+   "ap",
+   "na",
+   "vo",
+   "fv",
+   "al"
+  ],
+  "description": "Inflamed appendix. Pain moves to the lower right belly."
+ },
+ {
+  "name": "Acid reflux",
+  "category": "Digestive",
+  "urgency": "low",
+  "symptoms": [
+   "hb",
+   "cp",
+   "bl",
+   "co",
+   "st"
+  ],
+  "description": "Stomach acid rising into the food pipe."
+ },
+ {
+  "name": "Asthma",
+  "category": "Respiratory",
+  "urgency": "medium",
+  "symptoms": [
+   "wz",
+   "sb",
+   "co",
+   "cp"
+  ],
+  "description": "Airways narrow causing wheeze and breathlessness."
+ },
+ {
+  "name": "COPD",
+  "category": "Respiratory",
+  "urgency": "medium",
+  "symptoms": [
+   "sb",
+   "co",
+   "wz",
+   "ft"
+  ],
+  "description": "Long-term lung disease, often linked to smoking or smoke exposure."
+ },
+ {
+  "name": "Bronchitis",
+  "category": "Respiratory",
+  "urgency": "low",
+  "symptoms": [
+   "co",
+   "wz",
+   "ft",
+   "st",
+   "fv"
+  ],
+  "description": "Irritated airways causing a lingering cough."
+ },
+ {
+  "name": "Sinusitis",
+  "category": "Respiratory",
+  "urgency": "low",
+  "symptoms": [
+   "sy",
+   "hd",
+   "rn",
+   "co",
+   "fv"
+  ],
+  "description": "Inflamed sinuses with facial pressure and a blocked nose."
+ },
+ {
+  "name": "Allergic rhinitis",
+  "category": "Respiratory",
+  "urgency": "low",
+  "symptoms": [
+   "sn",
+   "rn",
+   "it",
+   "sy"
+  ],
+  "description": "Allergy causing sneezing, itchy and runny nose."
+ },
+ {
+  "name": "Type 2 diabetes",
+  "category": "Metabolic",
+  "urgency": "medium",
+  "symptoms": [
+   "th",
+   "fu",
+   "bv",
+   "ft",
+   "wl",
+   "nm"
+  ],
+  "description": "High blood sugar. A simple blood test confirms it."
+ },
+ {
+  "name": "Hypertension",
+  "category": "Metabolic",
+  "urgency": "medium",
+  "symptoms": [
+   "hd",
+   "dz",
+   "pl",
+   "bv",
+   "cp"
+  ],
+  "description": "High blood pressure, often silent. Check BP regularly."
+ },
+ {
+  "name": "Hypothyroidism",
+  "category": "Metabolic",
+  "urgency": "low",
+  "symptoms": [
+   "ft",
+   "wg",
+   "ci",
+   "cn",
+   "wk"
+  ],
+  "description": "Underactive thyroid that slows the body down."
+ },
+ {
+  "name": "Hyperthyroidism",
+  "category": "Metabolic",
+  "urgency": "medium",
+  "symptoms": [
+   "wl",
+   "hi",
+   "pl",
+   "tr",
+   "sw"
+  ],
+  "description": "Overactive thyroid that speeds the body up."
+ },
+ {
+  "name": "Anaemia",
+  "category": "Metabolic",
+  "urgency": "low",
+  "symptoms": [
+   "pa",
+   "ft",
+   "wk",
+   "dz",
+   "pl",
+   "sb"
+  ],
+  "description": "Low haemoglobin, commonly from low iron."
+ },
+ {
+  "name": "Migraine",
+  "category": "Neurological",
+  "urgency": "low",
+  "symptoms": [
+   "hd",
+   "ls",
+   "na",
+   "vo",
+   "dz"
+  ],
+  "description": "Throbbing headache, often with light sensitivity and nausea."
+ },
+ {
+  "name": "Vertigo",
+  "category": "Neurological",
+  "urgency": "low",
+  "symptoms": [
+   "vs",
+   "dz",
+   "na",
+   "vo"
+  ],
+  "description": "Spinning sensation, often from inner ear problems."
+ },
+ {
+  "name": "Epilepsy",
+  "category": "Neurological",
+  "urgency": "high",
+  "symptoms": [
+   "se",
+   "cf",
+   "sp"
+  ],
+  "description": "Recurrent seizures. A first seizure needs urgent evaluation."
+ },
+ {
+  "name": "Cervical spondylosis",
+  "category": "Musculoskeletal",
+  "urgency": "low",
+  "symptoms": [
+   "nk",
+   "sf",
+   "nm",
+   "hd"
+  ],
+  "description": "Neck joint wear causing pain and arm tingling."
+ },
+ {
+  "name": "Osteoarthritis",
+  "category": "Musculoskeletal",
+  "urgency": "low",
+  "symptoms": [
+   "jp",
+   "sf",
+   "sl"
+  ],
+  "description": "Joint wear, with pain and stiffness in knees or hips."
+ },
+ {
+  "name": "Stroke",
+  "category": "Neurological",
+  "urgency": "high",
+  "symptoms": [
+   "fd",
+   "sp",
+   "nm",
+   "wk",
+   "cf",
+   "hd"
+  ],
+  "description": "Brain blood flow problem. Every minute counts."
+ },
+ {
+  "name": "Coronary artery disease",
+  "category": "Cardiovascular",
+  "urgency": "medium",
+  "symptoms": [
+   "cp",
+   "sb",
+   "ft",
+   "pl",
+   "sw"
+  ],
+  "description": "Narrowed heart arteries causing chest pain on effort."
+ },
+ {
+  "name": "Heart attack",
+  "category": "Cardiovascular",
+  "urgency": "high",
+  "symptoms": [
+   "cp",
+   "la",
+   "cw",
+   "sb",
+   "na",
+   "sw"
+  ],
+  "description": "Blocked heart artery. Medical emergency."
+ }
+]

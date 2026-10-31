@@ -1,0 +1,812 @@
+[
+ {
+  "code": "fv",
+  "column": "fever",
+  "name": "Fever",
+  "hinglish": "Bukhar",
+  "aliases": [
+   "bukhaar",
+   "bukhar",
+   "fever",
+   "feverish",
+   "high temperature",
+   "temperature",
+   "tez bukhar",
+   "बुखार"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ch",
+  "column": "chills",
+  "name": "Chills",
+  "hinglish": "Kapkapi / thand lagna",
+  "aliases": [
+   "chills",
+   "kaampna",
+   "kapkapi",
+   "kapkapi / thand lagna",
+   "rigors",
+   "shivering",
+   "thand lagna",
+   "कंपकंपी"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "hd",
+  "column": "headache",
+  "name": "Headache",
+  "hinglish": "Sir dard",
+  "aliases": [
+   "head pain",
+   "headache",
+   "sar dard",
+   "sir dard",
+   "sirdard",
+   "सर दर्द",
+   "सिर दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "co",
+  "column": "cough",
+  "name": "Cough",
+  "hinglish": "Khansi",
+  "aliases": [
+   "cough",
+   "coughing",
+   "khaansi",
+   "khansi",
+   "खाँसी",
+   "खांसी"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sb",
+  "column": "shortness_of_breath",
+  "name": "Shortness of breath",
+  "hinglish": "Saans phoolna",
+  "aliases": [
+   "breathless",
+   "difficulty breathing",
+   "saans lene mein dikkat",
+   "saans phoolna",
+   "shortness of breath",
+   "सांस फूलना",
+   "सांस लेने में तकलीफ"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ft",
+  "column": "fatigue",
+  "name": "Fatigue",
+  "hinglish": "Thakan",
+  "aliases": [
+   "exhausted",
+   "fatigue",
+   "thakaan",
+   "thakan",
+   "tired",
+   "थकान",
+   "थकावट"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "wk",
+  "column": "weakness",
+  "name": "Weakness",
+  "hinglish": "Kamzori",
+  "aliases": [
+   "kamjori",
+   "kamzori",
+   "weak",
+   "weakness",
+   "कमजोरी"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ba",
+  "column": "body_ache",
+  "name": "Body ache",
+  "hinglish": "Badan dard",
+  "aliases": [
+   "badan dard",
+   "badan toot",
+   "body ache",
+   "body pain",
+   "muscle pain",
+   "बदन दर्द",
+   "शरीर में दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "na",
+  "column": "nausea",
+  "name": "Nausea",
+  "hinglish": "Ji michlana",
+  "aliases": [
+   "feel sick",
+   "ji michlana",
+   "mitli",
+   "nausea",
+   "nauseous",
+   "जी मिचलाना"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "vo",
+  "column": "vomiting",
+  "name": "Vomiting",
+  "hinglish": "Ulti",
+  "aliases": [
+   "throwing up",
+   "ulti",
+   "vomit",
+   "vomiting",
+   "उल्टी"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "di",
+  "column": "diarrhoea",
+  "name": "Diarrhoea",
+  "hinglish": "Dast / loose motion",
+  "aliases": [
+   "dast",
+   "dast / loose motion",
+   "diarrhea",
+   "diarrhoea",
+   "loose motion",
+   "patle dast",
+   "दस्त"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ap",
+  "column": "abdominal_pain",
+  "name": "Abdominal pain",
+  "hinglish": "Pet dard",
+  "aliases": [
+   "abdominal pain",
+   "pait dard",
+   "pet dard",
+   "stomach ache",
+   "stomach pain",
+   "पेट दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "cp",
+  "column": "chest_pain",
+  "name": "Chest pain",
+  "hinglish": "Seene mein dard",
+  "aliases": [
+   "chest dard",
+   "chest pain",
+   "seene mein dard",
+   "tightness in chest",
+   "सीने में दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "rs",
+  "column": "skin_rash",
+  "name": "Skin rash",
+  "hinglish": "Badan par daane",
+  "aliases": [
+   "badan par daane",
+   "chakatte",
+   "daane",
+   "rash",
+   "skin rash",
+   "लाल दाने"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "jp",
+  "column": "joint_pain",
+  "name": "Joint pain",
+  "hinglish": "Jodon mein dard",
+  "aliases": [
+   "ghutne mein dard",
+   "jodon mein dard",
+   "joint dard",
+   "joint pain",
+   "knee pain",
+   "जोड़ों में दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "st",
+  "column": "sore_throat",
+  "name": "Sore throat",
+  "hinglish": "Gale mein dard",
+  "aliases": [
+   "gala kharab",
+   "gale mein dard",
+   "sore throat",
+   "throat pain",
+   "गला खराब",
+   "गले में दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "rn",
+  "column": "runny_nose",
+  "name": "Runny nose",
+  "hinglish": "Naak behna",
+  "aliases": [
+   "naak beh",
+   "naak behna",
+   "nazla",
+   "runny nose",
+   "नाक बहना"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sn",
+  "column": "sneezing",
+  "name": "Sneezing",
+  "hinglish": "Chheenkein aana",
+  "aliases": [
+   "chheenk",
+   "chheenkein aana",
+   "chhink",
+   "sneeze",
+   "sneezing",
+   "छींक"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "wz",
+  "column": "wheezing",
+  "name": "Wheezing",
+  "hinglish": "Saans mein seeti",
+  "aliases": [
+   "saans mein awaz",
+   "saans mein seeti",
+   "seeti",
+   "wheez",
+   "wheezing"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sw",
+  "column": "sweating",
+  "name": "Sweating",
+  "hinglish": "Zyada pasina",
+  "aliases": [
+   "pasina",
+   "sweating",
+   "zyada pasina",
+   "पसीना"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "wl",
+  "column": "weight_loss",
+  "name": "Weight loss",
+  "hinglish": "Wazan kam hona",
+  "aliases": [
+   "wazan kam",
+   "wazan kam hona",
+   "weight kam",
+   "weight loss",
+   "वजन कम"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ns",
+  "column": "night_sweats",
+  "name": "Night sweats",
+  "hinglish": "Raat ko pasina",
+  "aliases": [
+   "night sweat",
+   "night sweats",
+   "raat ko pasina"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "bc",
+  "column": "blood_in_cough",
+  "name": "Blood in cough",
+  "hinglish": "Khansi mein khoon",
+  "aliases": [
+   "blood in cough",
+   "coughing blood",
+   "khansi mein khoon",
+   "khoon wali khansi"
+  ],
+  "red_flag": true
+ },
+ {
+  "code": "ye",
+  "column": "yellow_eyes_or_skin",
+  "name": "Yellow eyes or skin",
+  "hinglish": "Aankh / skin peeli",
+  "aliases": [
+   "aankh / skin peeli",
+   "jaundice",
+   "peeli aankh",
+   "peeli aankhen",
+   "pilia",
+   "yellow eyes",
+   "yellow eyes or skin",
+   "yellow skin",
+   "पीली आंखें"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "du",
+  "column": "dark_urine",
+  "name": "Dark urine",
+  "hinglish": "Gehra peshab",
+  "aliases": [
+   "dark colored urine",
+   "dark urine",
+   "gehra peshab"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "al",
+  "column": "loss_of_appetite",
+  "name": "Loss of appetite",
+  "hinglish": "Bhook na lagna",
+  "aliases": [
+   "bhook kam",
+   "bhook na lagna",
+   "bhook nahi lagti",
+   "loss of appetite",
+   "no appetite",
+   "भूख नहीं"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "th",
+  "column": "excessive_thirst",
+  "name": "Excessive thirst",
+  "hinglish": "Bahut pyaas",
+  "aliases": [
+   "bahut pyaas",
+   "excessive thirst",
+   "pyaas zyada",
+   "very thirsty"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "fu",
+  "column": "frequent_urination",
+  "name": "Frequent urination",
+  "hinglish": "Baar baar peshab",
+  "aliases": [
+   "baar baar peshab",
+   "frequent urination",
+   "urinating often"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "bv",
+  "column": "blurred_vision",
+  "name": "Blurred vision",
+  "hinglish": "Dhundhla dikhna",
+  "aliases": [
+   "blurred vision",
+   "blurry vision",
+   "dhundhla",
+   "dhundhla dikhna",
+   "धुंधला दिखना"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "dz",
+  "column": "dizziness",
+  "name": "Dizziness",
+  "hinglish": "Chakkar aana",
+  "aliases": [
+   "chakkar",
+   "chakkar aana",
+   "dizziness",
+   "dizzy",
+   "चक्कर"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "vs",
+  "column": "spinning_sensation",
+  "name": "Spinning sensation",
+  "hinglish": "Sab ghoomna",
+  "aliases": [
+   "everything spinning",
+   "ghoomna",
+   "room spinning",
+   "sab ghoomna",
+   "sab ghoomta",
+   "spinning sensation",
+   "vertigo"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "pl",
+  "column": "palpitations",
+  "name": "Palpitations",
+  "hinglish": "Dhadkan tez hona",
+  "aliases": [
+   "dhadkan tez",
+   "dhadkan tez hona",
+   "dil tez",
+   "heart racing",
+   "palpitation",
+   "palpitations",
+   "धड़कन तेज"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "nm",
+  "column": "numbness",
+  "name": "Numbness",
+  "hinglish": "Sunn pan",
+  "aliases": [
+   "numb",
+   "numbness",
+   "sunn",
+   "sunn pan",
+   "tingling",
+   "सुन्न"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sp",
+  "column": "slurred_speech",
+  "name": "Slurred speech",
+  "hinglish": "Bolne mein dikkat",
+  "aliases": [
+   "bolne mein dikkat",
+   "difficulty speaking",
+   "slurred speech",
+   "zubaan ladkhadana"
+  ],
+  "red_flag": true
+ },
+ {
+  "code": "se",
+  "column": "seizure",
+  "name": "Seizure",
+  "hinglish": "Daura / mirgi",
+  "aliases": [
+   "convulsion",
+   "daura",
+   "daura / mirgi",
+   "jhatke",
+   "mirgi",
+   "seizure"
+  ],
+  "red_flag": true
+ },
+ {
+  "code": "nk",
+  "column": "neck_pain",
+  "name": "Neck pain",
+  "hinglish": "Gardan dard",
+  "aliases": [
+   "gardan dard",
+   "gardan mein dard",
+   "neck pain",
+   "गर्दन दर्द"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sf",
+  "column": "stiffness",
+  "name": "Stiffness",
+  "hinglish": "Akdan / jakdan",
+  "aliases": [
+   "akdan",
+   "akdan / jakdan",
+   "jakdan",
+   "stiff",
+   "stiffness"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ls",
+  "column": "light_sensitivity",
+  "name": "Light sensitivity",
+  "hinglish": "Roshni se takleef",
+  "aliases": [
+   "light sensitivity",
+   "roshni se takleef",
+   "sensitive to light"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "bl",
+  "column": "bloating_or_gas",
+  "name": "Bloating or gas",
+  "hinglish": "Pet fulna / gas",
+  "aliases": [
+   "bloating",
+   "bloating or gas",
+   "gas",
+   "pet fulna",
+   "pet fulna / gas",
+   "pet mein gas"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "hb",
+  "column": "heartburn",
+  "name": "Heartburn",
+  "hinglish": "Seene mein jalan",
+  "aliases": [
+   "acidity",
+   "heartburn",
+   "khatta dakar",
+   "seene mein jalan",
+   "जलन"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "cn",
+  "column": "constipation",
+  "name": "Constipation",
+  "hinglish": "Kabz",
+  "aliases": [
+   "constipation",
+   "kabz",
+   "कब्ज"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "pa",
+  "column": "pale_skin",
+  "name": "Pale skin",
+  "hinglish": "Chehra peela padna",
+  "aliases": [
+   "chehra peela padna",
+   "khoon ki kami",
+   "pale",
+   "pale skin",
+   "peela chehra"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ci",
+  "column": "feeling_cold_easily",
+  "name": "Feeling cold easily",
+  "hinglish": "Zyada thand lagna",
+  "aliases": [
+   "always cold",
+   "cold intolerance",
+   "feeling cold easily",
+   "thand zyada lagti",
+   "zyada thand lagna"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "hi",
+  "column": "heat_intolerance",
+  "name": "Heat intolerance",
+  "hinglish": "Zyada garmi lagna",
+  "aliases": [
+   "garmi bardasht nahi",
+   "hamesha garmi",
+   "heat intolerance",
+   "zyada garmi lagna"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sl",
+  "column": "swelling",
+  "name": "Swelling",
+  "hinglish": "Sujan",
+  "aliases": [
+   "sujan",
+   "swelling",
+   "swollen",
+   "सूजन"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "it",
+  "column": "itching",
+  "name": "Itching",
+  "hinglish": "Khujli",
+  "aliases": [
+   "itching",
+   "itchy",
+   "khujli",
+   "खुजली"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ep",
+  "column": "pain_behind_eyes",
+  "name": "Pain behind eyes",
+  "hinglish": "Aankh ke peeche dard",
+  "aliases": [
+   "aankh ke peeche dard",
+   "eye pain",
+   "pain behind eyes"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "bg",
+  "column": "bleeding_gums",
+  "name": "Bleeding gums",
+  "hinglish": "Masoode se khoon",
+  "aliases": [
+   "bleeding gums",
+   "gums bleeding",
+   "masoode se khoon"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "fd",
+  "column": "face_drooping",
+  "name": "Face drooping",
+  "hinglish": "Chehra tedha hona",
+  "aliases": [
+   "chehra tedha",
+   "chehra tedha hona",
+   "face drooping",
+   "face drooping on one side",
+   "muh tedha"
+  ],
+  "red_flag": true
+ },
+ {
+  "code": "cf",
+  "column": "confusion",
+  "name": "Confusion",
+  "hinglish": "Ulajhan / behoshi",
+  "aliases": [
+   "behoshi",
+   "confused",
+   "confusion",
+   "ulajhan",
+   "ulajhan / behoshi",
+   "बेहोशी"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "ls2",
+  "column": "loss_of_smell_or_taste",
+  "name": "Loss of smell or taste",
+  "hinglish": "Swad / khushboo na aana",
+  "aliases": [
+   "cannot smell",
+   "cannot taste",
+   "khushboo nahi",
+   "loss of smell",
+   "loss of smell or taste",
+   "loss of taste",
+   "swad / khushboo na aana",
+   "swad nahi"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "sy",
+  "column": "blocked_nose_or_sinus",
+  "name": "Blocked nose or sinus",
+  "hinglish": "Naak band",
+  "aliases": [
+   "blocked nose",
+   "blocked nose or sinus",
+   "naak band",
+   "naak jam",
+   "sinus",
+   "stuffy nose",
+   "नाक बंद"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "rq",
+  "column": "lower_right_belly_pain",
+  "name": "Lower right belly pain",
+  "hinglish": "Daayein neeche pet dard",
+  "aliases": [
+   "daayein neeche pet dard",
+   "lower right abdomen",
+   "lower right belly pain",
+   "right lower abdomen"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "cw",
+  "column": "cold_sweat",
+  "name": "Cold sweat",
+  "hinglish": "Thanda pasina",
+  "aliases": [
+   "cold sweat",
+   "thanda pasina"
+  ],
+  "red_flag": true
+ },
+ {
+  "code": "la",
+  "column": "pain_in_left_arm_or_jaw",
+  "name": "Pain in left arm or jaw",
+  "hinglish": "Baayein haath / jabde mein dard",
+  "aliases": [
+   "baayein haath / jabde mein dard",
+   "baayein haath mein dard",
+   "jabde mein dard",
+   "jaw pain",
+   "left arm pain",
+   "pain in left arm or jaw"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "wg",
+  "column": "weight_gain",
+  "name": "Weight gain",
+  "hinglish": "Wazan badhna",
+  "aliases": [
+   "wazan badhna",
+   "weight badh",
+   "weight gain"
+  ],
+  "red_flag": false
+ },
+ {
+  "code": "tr",
+  "column": "tremor",
+  "name": "Tremor",
+  "hinglish": "Haath kaampna",
+  "aliases": [
+   "haath kaampna",
+   "shaking hands",
+   "tremor"
+  ],
+  "red_flag": false
+ }
+]

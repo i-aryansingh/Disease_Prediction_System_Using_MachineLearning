@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="utf-8">
+<meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SBDPS – Bolo, kya takleef hai?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="navbar"><div class="wrap"><div class="top">
+    <div class="logo"><i>✚</i><div>SBDPS<small>Symptom-Based Disease Prediction System</small></div></div>
+    <div class="tools">
+      <select id="lang" class="bt" aria-label="Voice language"><option value="en-IN">🎙 English / Hinglish</option><option value="hi-IN">🎙 हिन्दी</option></select>
+      <button id="speakT" class="bt" aria-pressed="true">🔊 Speak results</button>
+      <button id="theme" class="bt" aria-label="Dark mode toggle">◐</button>
+    </div>
+  </div></div></div>
+<div class="wrap">
+  <header class="hero"><h1 class="d">Describe how you feel.<br><span>Get guided to the right care.</span></h1><p>A voice-enabled early screening assistant. Speak or type your symptoms in English, Hinglish or Hindi and see ranked possible conditions with how urgently to seek care.</p><div class="stk"><b>40 conditions</b><b>55+ symptoms</b><b>Voice in 3 languages</b></div></header>
+  <div class="grid2">
+    <section class="bx con" aria-label="Voice and text input">
+      <h2>Describe your symptoms</h2>
+      <p class="sub">Tap the mic and speak, or type below.</p>
+      <div class="stage"><button id="mic" aria-label="Bolna shuru karein" aria-pressed="false">🎙</button></div>
+      <div class="wave" id="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div id="status" role="status" aria-live="polite">Tap the mic and speak. Say “clear” to reset or “read aloud” to hear the results.</div>
+      <div class="micnote" id="mn" hidden><b>Voice input isn’t available in this embedded preview</b><p>Browsers block the microphone inside embedded frames. Open the standalone version in Chrome or Edge and voice input will work. Meanwhile, you can dictate with your keyboard’s mic (phone keyboard, Win+H on Windows, Fn twice on Mac).</p><button class="bt" id="kb">⌨ Dictate with keyboard</button><button class="bt" id="nt" hidden>↗ Open in new tab</button></div>
+      <textarea id="txt" placeholder="e.g. mujhe do din se bukhar hai aur sir dard…" aria-label="Symptoms likhein"></textarea>
+      <div class="cl">Quick examples</div>
+      <div class="chips ex" id="ex"></div>
+      <div class="cl">Your symptoms</div>
+      <div class="chips sel" id="picked"></div>
+      <div class="go"><button class="main" id="go">Check symptoms</button><button class="sec" id="clr">Clear</button></div>
+    </section>
+    <div class="col">
+      <section class="bx" id="resbox" aria-label="Results" aria-live="polite">
+        <h2>Possible conditions</h2>
+        <p class="sub">Top 3 matches and how urgently to seek care.</p>
+        <span class="eng" id="engine">Engine: checking…</span>
+        <div id="out"></div>
+        <p class="note" style="margin-top:12px">SBDPS is an early-screening aid, not a diagnosis. Always confirm with a qualified doctor.</p>
+      </section>
+      <section class="bx" id="hist" hidden><div class="hh"><h2>Recent checks</h2><button class="bt" id="hc">Clear</button></div><p class="sub" style="margin-bottom:0">Saved only in your browser.</p><div id="hl"></div></section>
+    </div>
+  </div>
+  <section class="bx" style="margin-top:26px" aria-label="Symptom list">
+    <h2>Select from the list</h2>
+    <p class="sub">Tap everything you are experiencing.</p>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <input type="search" id="q" placeholder="Search symptoms, e.g. bukhar or fever…" aria-label="Symptom search">
+    <div class="grid" id="list"></div>
+  </section>
+  <footer>
+    <details><summary>Help numbers and research reference</summary>
+      <p>Ayushman Bharat <a href="tel:14555">14555</a> · Ambulance <a href="tel:108">108</a> · Emergency <a href="tel:112">112</a> · <a href="https://esanjeevani.mohfw.gov.in" target="_blank" rel="noopener">e-Sanjeevani</a> · <a href="https://icmr.gov.in" target="_blank" rel="noopener">ICMR guidelines</a></p>
+      <div class="scroll"><table><caption style="text-align:left;color:var(--mut)">Model results from the paper (test set, n=1,200)</caption>
+      <tr><th>Model</th><th>Accuracy</th><th>F1</th></tr>
+      <tr><td>Random Forest</td><td>92.4%</td><td>91.9%</td></tr><tr><td>CNN</td><td>90.7%</td><td>90.8%</td></tr><tr><td>SVM (RBF)</td><td>88.3%</td><td>87.8%</td></tr><tr><td>KNN (k=7)</td><td>85.1%</td><td>84.9%</td></tr><tr><td>Naive Bayes</td><td>81.6%</td><td>81.6%</td></tr></table></div>
+    </details>
+  </footer>
+</div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
