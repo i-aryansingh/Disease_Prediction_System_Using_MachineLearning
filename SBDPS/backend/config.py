@@ -13,7 +13,7 @@ METRICS_JSON = MODELS_DIR / "metrics.json"
 
 RANDOM_STATE = 42
 TOP_K = 3
-DEFAULT_MODEL = "random_forest"  # model served by the API (benchmark winner is stored in models/metrics.json)
+DEFAULT_MODEL = "naive_bayes"  # model served by the API (benchmark winner is stored in models/metrics.json)
 
 MODEL_LABELS = {
     "random_forest": "Random Forest",
